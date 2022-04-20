@@ -9,11 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var redView: UIView!//255.0.0 
+    @IBOutlet weak var redView: UIView!//255.0.0
     @IBOutlet weak var yellowView: UIView!//255.255.0
     @IBOutlet weak var greenView: UIView!//2.255.0
     @IBOutlet weak var startButton: UIButton!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         settingsView()
